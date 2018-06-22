@@ -1,0 +1,32 @@
+/*--Este es un comentario--*/
+body{
+    background-color: aliceblue
+}
+h1{
+    color: grey;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: justify;
+}
+#titulo{
+    color: goldenrod;
+    text-align: center;
+}
+.izquierda{
+    text-align: right;
+    color: blueviolet;
+}
+p.prueba{
+    text-align: center;
+    color: red;
+}
+p.center {
+    text-align: center;
+    color: red;
+}
+
+p.large {
+    font-size: 300%;
+}

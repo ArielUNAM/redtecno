@@ -1,0 +1,30 @@
+/*--Cuerpo principal--*/
+body{
+    background-color: aquamarine;
+    border: 2pt solid black;
+}
+
+h1,h2,p{
+    border: 2pt solid tomato;
+}
+
+/*--Titulos--*/
+.titulo{
+    text-align: center;
+    color: black;
+}
+
+/*--Contenido--*/
+.cuerpo{
+    text-align: justify;
+    color:gray;
+}
+#rgb{
+    background-color: rgb(165, 165,165);
+}
+#hex{
+    background-color: #6a5acd;
+}
+#rgba{
+    background-color: rgba(255, 100, 100,0.5)
+}

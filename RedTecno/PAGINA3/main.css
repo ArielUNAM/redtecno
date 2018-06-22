@@ -1,0 +1,9 @@
+body{
+    background-image: url("lluvia.png");
+    background-repeat: no-repeat;
+}
+#titulo{
+    background-color: aliceblue;
+    color:black;
+    text-align: center
+}

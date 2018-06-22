@@ -1,0 +1,10 @@
+/*body{
+    background-image: url("arbol.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}*/
+body{
+    background: #ffffff url("arbol.jpg") no-repeat right top;
+    
+}
