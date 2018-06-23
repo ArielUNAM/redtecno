@@ -6,3 +6,27 @@ h1{
     color: white;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+il{
+    color: white;
+    
+}
+#nav{
+    text-align: right;
+    list-style-type: initial;
+    margin: 1%;
+    padding: 1%;
+    overflow: auto;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
