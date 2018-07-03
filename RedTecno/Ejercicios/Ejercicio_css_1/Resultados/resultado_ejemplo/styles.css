@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cruz_div{
+    display:flex;
+    width: 30px;
+    height: 30px;
+    position:relative;
+    margin:0 5px;
+    cursor: pointer;
+   
+}
+.cruz_div:hover::before{
+    transform: rotate(-45deg);
+}
+.cruz_div:hover::after {
+    transform: rotate(45deg);
+}
+.cruz_div::before , .cruz_div::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12.5px;
+    left:0;
+    height: 5.6568542494923801952067548968388px;
+    width: 29.698484809834996024835463208404px;
+    transform: rotate(45deg);
+    transition: transform .55s;
+    background-color: rgb(26, 25, 25);
+}
+.cruz_div::after {
+    transform: rotate(-45deg);
+}
